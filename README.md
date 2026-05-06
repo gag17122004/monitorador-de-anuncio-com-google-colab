@@ -1,0 +1,1 @@
+# monitorador-de-anuncio-com-google-colab
