@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-11-15",
+  "generated_by": "Claude (análise estática do código em main, clones shallow)",
+  "repo": "monitorador-de-anuncio-com-google-colab",
+  "nome": "Monitor de Preços Marketplace",
+  "stack": "Python (requests + BeautifulSoup + pandas), feito para rodar em Google Colab",
+  "proposito": "Faz scraping de páginas públicas de anúncios (ML/Shopee) via JSON Preloaded State / meta tags, compara com o próprio custo e sinaliza 🚨 BAIXAR ou ✅ COMPETITIVO.",
+  "arquivos": [
+    "untitled0.py (104 linhas, exportado do Colab)"
+  ],
+  "pendencias_e_achados": [
+    "README menciona um arquivo 'monitor.py' que não existe — o arquivo real chama 'untitled0.py' (nome padrão que o Colab dá e nunca foi renomeado). Só renomear o arquivo (ou ajustar o README) resolve.",
+    "Scraping de páginas públicas de concorrentes é mencionado no próprio README como ponto de atenção quanto a rate-limit/bloqueio de IP — nada a corrigir, já está documentado."
+  ]
+}
